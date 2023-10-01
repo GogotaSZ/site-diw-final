@@ -34,6 +34,15 @@ li .dois-pontos{
     color: var(--color-neuttral-30);
 }
 
+.title-secition{
+text-transform: uppercase;
+}
+
+.content-area{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
 #about-text{
 flex: 2;
 display: flex;
