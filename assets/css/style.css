@@ -271,3 +271,22 @@ background-color: var(--color-neuttral-10);
     padding: 1,5rem;
     font-weight: 100;
 }
+
+#card-album{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 30px;
+    background-color: #333;
+    
+}
+
+#album-imagem{
+    height: 400px;
+    border-radius: 20%;
+}
+
+#album-text{
+    padding-top: 80px;
+    color: var(--color-neuttral-40);
+}
