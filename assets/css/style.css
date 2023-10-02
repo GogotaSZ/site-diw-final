@@ -293,15 +293,12 @@ background-color: var(--color-neuttral-10);
 }
 
 @media screen and (max-width: 768px) {
-    #footer {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+    #about {
+        flex-direction: column;
+        text-align: center;
     }
-}
 
-@media screen and (max-width: 426px) {
-    #footer {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+    #footer_social_media {
+        margin-top: 20px;
     }
 }
